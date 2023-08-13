@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Parallax Website with Jana Gana Mana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <audio id="background-audio" loop autoplay>
+    <source src="janaganamana.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="parallax">
+    <div class="layer" data-depth="0.1">
+      <img src="layer1.png" alt="Layer 1">
+    </div>
+    <div class="layer" data-depth="0.2">
+      <img src="layer2.png" alt="Layer 2">
+    </div>
+    <!-- Add more layers as needed -->
+  </div>
+  <script src="parallax.js"></script>
+</body>
+</html>
